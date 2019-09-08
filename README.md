@@ -10,7 +10,7 @@ If you already have docker and docker-compose. Open your terminal and go to the 
 
 1. run `docker-compose build`
 2. run `docker-compose up`
-3. run `docker ps` to get the container id, and run `docker exec -it {container id} sh` to go into the container.
+3. run `docker ps` to get the container id of `app`, and run `docker exec -it {container id} sh` to go into the container.
 4. run `sequelize db:migrate` to install the database
 5. run `sequellize db:seed:all` to run all the seeding data before you can use the app.
 6. go to postman with `localhost` or `127.0.0.0` to access the endpoints.
